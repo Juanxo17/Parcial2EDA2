@@ -4,7 +4,7 @@ export class Queue {
     }
 
     enqueue(...values) {
-        this.items.push(...values); // Permite agregar múltiples elementos
+        this.items.push(...values); 
     }
 
     dequeue() {
